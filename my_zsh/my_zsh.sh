@@ -1,0 +1,1 @@
+source ~/dev_configs/my_zsh/aliases/aliases.sh
