@@ -9,7 +9,9 @@ export ZSH="/home/marco/.oh-my-zsh"
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 # ZSH_THEME="agnoster"
-ZSH_THEME="powerlevel9k/powerlevel9k"
+
+# Change the Theme here:
+source ~/dev_configs/my_zsh/zsh_themes/dev_theme.sh
 
 # Set list of themes to pick from when loading at random
 # Setting this variable when ZSH_THEME=random will cause zsh to load
