@@ -18,4 +18,8 @@ alias venv3="python3 -m venv venv"
 # Git shortcuts:
 alias st="git status"
 alias am="git add . && git commit -m ${}"
+alias push_prod="git push -u origin production"
 alias push_master="git push -u origin master"
+alias push_test="git push -u origin test"
+alias push_dev="git push -u origin development"
+alias new_branch="git checkout -b ${}"
