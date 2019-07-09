@@ -2,10 +2,7 @@
 alias dev_configs="cd ~/dev_configs && code ."
 
 # Reset ZSH:
-alias zr=". ~/.zshrc"
-
-# Edit zshrc:
-alias ze="code ~/.zshrc"
+alias zr="cp ~/dev_configs/my_zsh/zshrc.sh ~/.zshrc && . ~/.zshrc"
 
 # OS Shortcuts:
 alias ..="cd .."
