@@ -1,6 +1,8 @@
 source ~/dev_configs/my_zsh/aliases/aliases.sh
 
 # Add secret local files to bash:
-source ~/dev_configs/secret/all.sh
+for file in ~/dev_configs/my_zsh/secret/*; do
+    source $file
+done
 
 source ~/dev_configs/my_zsh/services.sh
