@@ -1,3 +1,5 @@
+source ~/dev_configs/my_zsh/aliases/projects.sh
+
 # Access dev_configs project
 alias dev_configs="cd ~/dev_configs && code ."
 
