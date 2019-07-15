@@ -10,7 +10,8 @@ alias ..="cd .."
 # Python aliases:
 alias python="python3"
 alias pip="pip3"
-alias venv3="python3 -m venv venv"
+alias new_venv="python3 -m venv venv"
+alias venv=". venv/bin/activate"
 
 # Git shortcuts:
 alias st="git status"
