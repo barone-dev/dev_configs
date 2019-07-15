@@ -1,3 +1,5 @@
+source ~/dev_configs/my_zsh/aliases/projects.sh
+
 # Access dev_configs project
 alias dev_configs="cd ~/dev_configs && code ."
 
@@ -23,3 +25,5 @@ alias push="git push -u origin $(git rev-parse --abbrev-ref HEAD)"
 alias push_new_branch="git push --set-upstream origin $(git rev-parse --abbrev-ref HEAD)"
 alias new_branch="git checkout -b ${}"
 alias list_branches="git show-branch -a"
+
+alias nada="echo 'nada'"
