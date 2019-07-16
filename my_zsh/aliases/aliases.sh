@@ -14,6 +14,7 @@ alias python="python3"
 alias pip="pip3"
 alias new_venv="python3 -m venv venv"
 alias venv=". venv/bin/activate"
+alias pip_no_cache="pip install -U --no-cache-dir -r ${}"
 
 # Git shortcuts:
 alias st="git status"
