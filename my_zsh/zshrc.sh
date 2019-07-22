@@ -73,6 +73,8 @@ source ~/dev_configs/my_zsh/zsh_themes/dev_theme.sh
 plugins=(
     git
     python
+    virtualenv
+    virtualenvwrapper
 )
 
 source ~/dev_configs/my_zsh/my_zsh.sh

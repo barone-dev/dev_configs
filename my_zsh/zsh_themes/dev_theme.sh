@@ -83,7 +83,7 @@ POWERLEVEL9K_DIR_WRITABLE_ICON=""
 
 # Config the distribution of elements:
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(
-    root_indicator dir dir_writable 
+    root_indicator dir dir_writable virtualenv
     newline vcs 
 )
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(virtualenv command_execution_time background_jobs status time context ssh)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(command_execution_time background_jobs status time context ssh)
