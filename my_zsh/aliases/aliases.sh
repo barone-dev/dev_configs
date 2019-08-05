@@ -16,6 +16,7 @@ alias p_new_venv="python3 -m venv venv"
 alias p_activate_venv=". venv/bin/activate"
 alias p_deactivate_venv="deactivate"
 alias p_pip_no_cache="pip install -U --no-cache-dir -r ${}"
+alias p_packages="pip freeze"
 
 # Git shortcuts:
 alias g_status="git status"
